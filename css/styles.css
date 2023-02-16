@@ -326,26 +326,17 @@ body {
 .customers-icon-link {
     display: flex;
     padding: 16px 32px;
+    fill: #8E8F99;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-}
-
-.icons-customers {
-    display: flex;
-    fill: #8E8F99;
-
 }
 
 .customers-icon-link:hover,
 .customers-icon-link:focus {
     border: 1px solid var(--action-clr);
+    fill: var(--action-clr)
 }
 
-.icons-customers:hover,
-.icons-customers:focus {
-    fill: var(--action-clr);
-
-}
 
 /* ================Footer================== */
 .footer {
@@ -360,8 +351,13 @@ body {
     line-height: 1.5;
     color: var(--write-text-footer);
 
-    width: 264px;
+
     margin-right: auto;
+}
+
+.footer-descr {
+    width: 264px;
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -374,6 +370,50 @@ body {
     color: var(--write-logo-footer);
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-wrap {
+    display: flex;
+}
+
+.contacts-social-links {
+    width: 208px;
+}
+
+.fotter-contact-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 5;
+    color: var(--primary-write);
+
+    margin-bottom: 16px;
+}
+
+.footer-social-lists {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-social-link-lists {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-link-lists:hover,
+.footer-social-link-lists:hover {
+    background: #31D0AA;
+}
+
+
+
+.footer-social-link {
+    fill: var(--write-logo-footer);
 }
 
 /*================== Page PORTFOLIO ======================= */
